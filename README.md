@@ -1,6 +1,3 @@
-# rust-new-project-template
-A good starting point for a new Rust project
+## Individual Project #1: Rust CLI
 
-## References
-
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+Build a useful command-line tool in data engineering or machine learning engineering.
