@@ -46,6 +46,6 @@ fn main() {
         } else {
             pt = 3635.0 * credit;
         }
-        println!("Your tuition is {} dollars.", pt);
+        println!("Your tuition is {pt} dollars.");
     }
 }

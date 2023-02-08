@@ -18,6 +18,12 @@ test:
 run:
 	cargo run
 
+build:
+	docker build -t tuition .
+
+rundocker:
+	docker run -it --rm -p 8080:8080 tuition
+
 release:
 	cargo build --release
 
