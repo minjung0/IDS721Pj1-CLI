@@ -24,7 +24,7 @@ build:
 rundocker:
 	docker run -it --rm -p 8080:8080 tuition
 
-release:
+build-release:
 	cargo build --release
 
 all: format lint test run
